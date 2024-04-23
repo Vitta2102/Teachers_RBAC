@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers - RBAC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Teachers</h1>
+            <img src="images/logo-sem-fundo.png" alt="logo">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Estúdio</a></li>
+            <li><a href="#">Fotos</a></li>
+            <li><a href="#">Biblioteca</a></li>
+            <li><a href="#">Escolas</a></li>
+            <li><a href="#">Comunidade</a></li>
+            <li><a href="#">Fórum</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="atividades">
+            <h2>Estúdio Pedagógico</h2>
+            <div class="console">
+                <div class="console-icon">
+                    <i class="material-icons">attach_file</i>
+                </div>
+                <div class="console-output"></div>
+                <textarea class="console-input" placeholder="Inicie uma publicação..."></textarea>
+            </div>
+        </section>
+        <section id="fotos">
+            <h2>Fotos</h2>
+            <div class="carousel">
+                <input type="radio" id="slide1" name="slides" checked>
+                <input type="radio" id="slide2" name="slides">
+                <input type="radio" id="slide3" name="slides">
+                
+                <div class="slides">
+                    <div class="slide">
+                        <img src="images/prof.jpeg" alt="Descrição da Imagem 1">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lousa.jpg" alt="Descrição da Imagem 2">
+                    </div>
+                    <div class="slide">
+                        <img src="images/menina.jpg" alt="Descrição da Imagem 3">
+                    </div>
+                </div>
+                
+                <div class="navigation">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+        </section>
+        <section id="escolas">
+            <h2>Escolas</h2>
+        </section>
+        <section id="forum">
+            <h2>Comunidade</h2>
+        </section>
+        <section id="forum">
+            <h2>Fórum</h2>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Teachers - RBAC</p>
+    </footer>
+</body>
+</html>
